@@ -1,0 +1,149 @@
+$colorone: #222222;
+$colortwo: white;
+$colorthree: #008F68;
+$colorfour: #1cbe83;
+$main-font: 'Open Sans', sans-serif;
+$head-font: 'Nothing You Could Do', cursive;
+
+nav {
+  font-family: $head-font;
+  background: $colortwo;
+  min-height: 50px;
+  border-bottom: solid $colorthree 2px;
+}
+
+.navbar-toggler{
+  border: none;
+}
+
+.email, .phone{
+  text-align: center;
+  color: $colorthree;
+  font-family: $main-font;
+
+}
+/*Home*/
+.carousel{
+  width: 100%
+}
+.img-fluid{
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background: $colorone
+}
+
+/*Message*/
+.messageform{
+  margin-top: 60px;
+  width: 75%;
+
+  margin-left: auto;
+  margin-right: auto;
+  font-family: $main-font;
+  color: $colorthree;
+
+}
+/*Resume*/
+.intro{
+  margin: 25px;
+  margin-top: 60px;
+  text-align: center;
+  color: $colortwo;
+  font-family: $main-font;
+  font-size: 16px;
+  h2{
+    font-size: 22px;
+  }
+}
+.education{
+  border-bottom: solid $colortwo 2px;
+  text-align: center;
+  margin: 20px;
+
+  h1{
+    color: $colortwo;
+    font-size: 22px;
+  }
+  h2{
+    color: $colortwo;
+    font-size: 16px;
+  }
+  p{
+    color: $colorthree;
+    font-size: 12px;
+  }
+}
+.horizontal {
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    border-bottom: solid $colortwo 2px;
+    overflow-x: auto;
+}
+.horizontal > div { display: inline-block; float: none;}
+
+.horizontal > div:first-child { margin-left: 100;}
+
+p, h1, h2 { white-space: normal;}
+
+.experience{
+  font-family: $main-font;
+  vertical-align: top;
+  width: 50%;
+  h1{
+    font-size: 22px;
+    
+    color: $colortwo;
+  }
+  p{
+  color: $colorthree;
+  font-family: $main-font;
+  font-size: 12px; 
+  }
+}
+.span4{
+  color: $colorthree;
+  font-family: $main-font;
+  h2{
+    font-size: 16px;
+  }
+  p{
+    font-size: 12px;
+  }
+}
+
+/*fun stuffs*/
+img{
+  margin-top: 50px;
+}
+.links{
+  text-align: center;
+}
+
+a{
+  font-family: $head-font;
+  text-align: center;
+}
+a:visited{
+    color: $colorfour;
+  }
+a:hover{
+    color: $colorthree;
+  }
+a:link{
+    color: $colortwo;
+  }
+
+.list-group{
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+
+
+
+

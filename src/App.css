@@ -1,0 +1,122 @@
+nav {
+  font-family: "Nothing You Could Do", cursive;
+  background: white;
+  min-height: 50px;
+  border-bottom: solid #008F68 2px; }
+
+.navbar-toggler {
+  border: none; }
+
+.email, .phone {
+  text-align: center;
+  color: #008F68;
+  font-family: "Open Sans", sans-serif; }
+
+/*Home*/
+.carousel {
+  width: 100%; }
+
+.img-fluid {
+  width: 100%;
+  height: 100%; }
+
+body {
+  background: #222222; }
+
+/*Message*/
+.messageform {
+  margin-top: 60px;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Open Sans", sans-serif;
+  color: #008F68; }
+
+/*Resume*/
+.intro {
+  margin: 25px;
+  margin-top: 60px;
+  text-align: center;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px; }
+  .intro h2 {
+    font-size: 22px; }
+
+.education {
+  border-bottom: solid white 2px;
+  text-align: center;
+  margin: 20px; }
+  .education h1 {
+    color: white;
+    font-size: 22px; }
+  .education h2 {
+    color: white;
+    font-size: 16px; }
+  .education p {
+    color: #008F68;
+    font-size: 12px; }
+
+.horizontal {
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+  border-bottom: solid white 2px;
+  overflow-x: auto; }
+
+.horizontal > div {
+  display: inline-block;
+  float: none; }
+
+.horizontal > div:first-child {
+  margin-left: 100; }
+
+p, h1, h2 {
+  white-space: normal; }
+
+.experience {
+  font-family: "Open Sans", sans-serif;
+  vertical-align: top;
+  width: 50%; }
+  .experience h1 {
+    font-size: 22px;
+    color: white; }
+  .experience p {
+    color: #008F68;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px; }
+
+.span4 {
+  color: #008F68;
+  font-family: "Open Sans", sans-serif; }
+  .span4 h2 {
+    font-size: 16px; }
+  .span4 p {
+    font-size: 12px; }
+
+/*fun stuffs*/
+img {
+  margin-top: 50px; }
+
+.links {
+  text-align: center; }
+
+a {
+  font-family: "Nothing You Could Do", cursive;
+  text-align: center; }
+
+a:visited {
+  color: #1cbe83; }
+
+a:hover {
+  color: #008F68; }
+
+a:link {
+  color: white; }
+
+.list-group {
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%; }
+
+/*# sourceMappingURL=App.css.map */
