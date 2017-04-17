@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './App.css';
 import './App.js';
 import $ from 'jquery';
-
 import {
   BrowserRouter as Router,
   Route,
