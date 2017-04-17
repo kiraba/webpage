@@ -10,24 +10,24 @@ export default class Resume extends Component{
     return(
       <div>
       <div className="intro">
-        <p>I'm currently seeking opportunities to grow as a junior full-stack web developer. </p>
+        <p>I'm currently seeking opportunities to grow as an implementation consultant or junior full-stack web developer. </p>
         <h2>My current developer skillset:</h2><br/>
-        <div className="progress">
+{/*        <div className="progress">
           <div className="progress-bar bg-success" role="progressbar" style={{width: '25%'}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">React/React Native</div>
           <div className="progress-bar bg-info" role="progressbar" style={{width: '25%'}}aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">JavaScript & Node.js</div>
           <div className="progress-bar bg-warning" role="progressbar" style={{width: '20%'}} aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">HTML5/CSS3/SASS/SCSS</div>
           <div className="progress-bar bg-danger" role="progressbar" style={{width: '20%'}} aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">MongoDB</div>
           <div className="progress-bar" role="progressbar" style={{width: '10%'}} aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">SQL</div>
         </div><hr/>
-        <p>Experience with:</p>
-            <a>Agile Methods</a>
+        <p>Experience with:</p>*/}
+            <a>Agile Methods, JavaScript, React, SQL, MongoDB, Bootstrap, Sass, HTML and Node.JS</a>
       </div>
       <div className="education">
         <h1>Education</h1>
               <div>
                 <h2>Montana Code School</h2>
                 <p>February - April 2015
-                    Full-time immersion training in full-stack web developent</p>
+                    Three month full-time immersion course in full-stack web developent</p>
               </div>
               <div>
                 <h2>University of Illinois at Urbana-Champaign</h2>
@@ -46,27 +46,28 @@ export default class Resume extends Component{
             <div className="row-fluid">
               <div className="span4">
                 <h2>Assistant Manager</h2>
-                     <p>October 2014 – December 2016                                                                                          
+                     <p>October 2014 – December 2016<br/>                                                                                          
                         Modory Home Furnishings, Missoula, Montana</p>
               </div>
               <div className="span4">
                 <h2>Guest Services Agent</h2>
-                <p>November 2013 – June 2015
+                <p>November 2013 – June 2015<br/>
                    Doubletree by Hilton, Missoula, Montana</p>
               </div>
               <div className="span4">
                <h2>Sales Associate</h2>
-                   <p>May 2001 – September 2013
+                   <p>May 2001 – September 2013<br/>
                       King's Furniture Store, Olney, Illinois</p>
               </div>
               <div className="span4">
                <h2>Guest Management Intern/Trainee</h2>
-                   <p>April - July 2011
+                   <p>April - July 2011<br/>
                       Elephant Hills Luxury Tented Resort, Khao Sok, Thailand</p>
               </div>
             </div>
           </div>
         </div>
+      </div>
       </div>
       <div className="navbar navbar-inverse navbar-fixed-top">
         <div className="container-fluid">
@@ -119,12 +120,11 @@ export default class Resume extends Component{
                       <p>Lead after school science programs and summer camps for 3rd to 5th grade students</p>
                     </div>
                   </div>
-                  </div>
-                </div>
                 </div>
               </div>
+            </div>
+          </div>
         </div>
-      </div>
         )
     }
 }
