@@ -23,6 +23,7 @@ import {
 export default class App extends Component{
   render(){ // the various routes to come in
     return (
+      <Router className='page'>
       <div>
         <nav className="navbar fixed-top navbar-toggleable-md navbar-light">
           <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,18 +34,18 @@ export default class App extends Component{
             <div className="navbar-nav">
               <Link className="nav-item nav-link" to="/Home">Home</Link>
               <Link className="nav-item nav-link" to="/Resume">Resume</Link>
-              <Link className="nav-item nav-link" to="/Funstuff">Fun Stuff</Link>
+              <Link className="nav-item nav-link" to ="/Funstuff">Fun Stuff</Link>
             </div>
             </div>
         </nav>
-        <Router className='page'>
+        
           <div>
             <Route path='/Home' component={Home}/>
             <Route path='/Resume' component={Resume}/>
             <Route path='/Funstuff' component={Funstuff}/>
           </div>
+          </div>
         </Router>
-      </div>
       
     )
   }
