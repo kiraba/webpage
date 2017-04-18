@@ -31,9 +31,9 @@ export default class App extends Component{
           <a className="navbar-brand" href="./Home">Rebecca A. King</a>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <div className="navbar-nav">
-              <a className="nav-item nav-link" href="./Home">Home<span></span></a>
-              <a className="nav-item nav-link" href="./Resume">Resume</a>
-              <a className="nav-item nav-link" href="./Funstuff">Fun Stuff</a>
+              <Link className="nav-item nav-link" to="/Home">Home</Link>
+              <Link className="nav-item nav-link" to="/Resume">Resume</Link>
+              <Link className="nav-item nav-link" to="/Funstuff">Fun Stuff</Link>
             </div>
             </div>
         </nav>

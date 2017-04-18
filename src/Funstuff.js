@@ -13,23 +13,25 @@ export default class Home extends Component{
   render(){ // the various routes to come in
     return (
       <div>
-        <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel">
+      <div className="carousel slide carousel-fade" data-ride="carousel">
           <div className="carousel-inner" role="listbox">
-            <div className="carousel-item active">
-              <img className="d-block img-fluid" src="denalikidz.jpg"  alt="First slide"></img>
-            </div>
-            <div className="carousel-item">
-              <img className="d-block img-fluid" src="gettotheCHOPPA.jpg" alt="Second slide"></img>
-            </div>
+              <div className="item active">
+              </div>
+              <div className="item">
+              </div>
+              <div className="item">
+              </div>
           </div>
+      </div>
         <div>
           <p className="links">
-          <img src="tumblr.png" className="icon"/><br/><a className="funsite" href="https://lightinthe.tumblr.com">My Tumblr</a><br/>
-          <img src="theoatmeal.jpg" className="icon"/><br/><a className="funsite" href="https://theoatmeal.com">The Oatmeal</a>
+          <a className="title" href="https://lightinthe.tumblr.com"><img src="tumblr.png" className="icon" alt="responsive"/></a><br/>
+          <a className="title" href="https://theoatmeal.com"><img src="theoatmeal.jpg" className="icon" alt="responsive"/></a>
+          <a className="title" href="https://www.instagram.com/hijaiom/?hl=en"><img src="insta.png" className="icon" alt="responsive"/></a>
           </p>
         </div>
         <div className="list-group">
-          <a href="#" className="list-group-title">
+          <a href="#" className="title">
             Summer and Fall 2017 To Dos
           </a>
           <a href="http://www.runnersedgemt.com/events/eleven-miles-to-paradise-trail-race/" className="list-group-item list-group-item-action">11 Miles To Paridise - May 21st</a>
@@ -38,7 +40,6 @@ export default class Home extends Component{
           <a href="#" className="list-group-item list-group-item-action disabled">Raft the Snake!</a>
         </div>
       </div>
-    </div>
     )
   }
 }
