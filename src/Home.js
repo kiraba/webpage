@@ -14,16 +14,16 @@ export default class Home extends Component {
         <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
           <div className="carousel-inner" role="listbox">
             <div className="carousel-item active">
-              <img className="d-block img-fluid" src="Lolo.jpg" alt="Responsive"/>
+              <img className="d-block img-fluid" src="/Lolo.jpg" alt="Responsive"/>
             </div>
             <div className="carousel-item">
-              <img className="d-block img-fluid" src="prairie.png" alt="Second slide"/>
+              <img className="d-block img-fluid" src="/prairie.png" alt="Second slide"/>
             </div>
             <div className="carousel-item">
-              <img className="d-block img-fluid" src="Waddington.jpg" alt="Third slide"/>
+              <img className="d-block img-fluid" src="/Waddington.jpg" alt="Third slide"/>
             </div>
             <div className="carousel-item">
-              <img className="d-block img-fluid" src="mardigras.png" alt="Fourth slide"/>
+              <img className="d-block img-fluid" src="/mardigras.png" alt="Fourth slide"/>
             </div>
           </div>
           <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
