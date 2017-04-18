@@ -25,7 +25,7 @@ body {
 
 /*Message*/
 .messageform {
-  margin-top: 60px;
+  margin-top: 50px;
   width: 75%;
   margin-left: auto;
   margin-right: auto;
@@ -33,17 +33,27 @@ body {
   color: #008F68; }
 
 /*Resume*/
+.img-fluid {
+  margin-top: 50px;
+  border-bottom: solid #008F68 1px; }
+
 .intro {
   margin: 25px;
-  margin-top: 60px;
+  margin-top: 20px;
   text-align: center;
   color: white;
   font-family: "Open Sans", sans-serif;
   font-size: 16px; }
   .intro h2 {
-    font-size: 22px; }
+    font-size: 22px;
+    color: #008F68; }
+  .intro p {
+    color: #008F68; }
 
 .education {
+  border-top: solid white 2px;
+  height: 200px;
+  padding: 30px;
   border-bottom: solid white 2px;
   text-align: center;
   margin: 20px; }
@@ -98,6 +108,10 @@ p, h1, h2 {
 img {
   margin-top: 50px; }
 
+.icon, .funsite {
+  width: 30px;
+  height: 30px; }
+
 .links {
   text-align: center; }
 
@@ -106,7 +120,7 @@ a {
   text-align: center; }
 
 a:visited {
-  color: #1cbe83; }
+  color: #008F68; }
 
 a:hover {
   color: #008F68; }

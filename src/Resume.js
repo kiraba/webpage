@@ -9,9 +9,11 @@ export default class Resume extends Component{
   render(){
     return(
       <div>
+      <img className="img-fluid" src="Glacier.jpg"/>
       <div className="intro">
-        <p>I'm currently seeking opportunities to grow as an implementation consultant or junior full-stack web developer. </p>
-        <h2>My current developer skillset:</h2><br/>
+        <p> cca.king@gmail.com | 628-204-7627 </p>
+        <p1>I'm currently seeking opportunities to grow as an implementation consultant or junior full-stack web developer. </p1> <hr/>
+        <h2>My current developer skillset includes:</h2><br/>
 {/*        <div className="progress">
           <div className="progress-bar bg-success" role="progressbar" style={{width: '25%'}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">React/React Native</div>
           <div className="progress-bar bg-info" role="progressbar" style={{width: '25%'}}aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">JavaScript & Node.js</div>
@@ -24,16 +26,16 @@ export default class Resume extends Component{
       </div>
       <div className="education">
         <h1>Education</h1>
-              <div>
-                <h2>Montana Code School</h2>
-                <p>February - April 2015
+        <div>
+            <h2>Montana Code School</h2>
+            <p>February - April 2015
                     Three month full-time immersion course in full-stack web developent</p>
-              </div>
-              <div>
-                <h2>University of Illinois at Urbana-Champaign</h2>
-                <p>Graduated in December of 2009
+        </div>
+        <div>
+            <h2>University of Illinois at Urbana-Champaign</h2>
+            <p>Graduated in December of 2009
                    B.S. in Earth Systems</p>
-              </div>
+        </div>
       </div>
       <div className="navbar navbar-inverse navbar-fixed-top">
        <div className="container-fluid">
@@ -99,11 +101,11 @@ export default class Resume extends Component{
                 <p>October 2010 - October 2011 <br/>Buayai School, Nakhon Ratchisima, Thailand</p>
                 </div>
               </div>
-              </div>
-            </div>
             </div>
           </div>
-          <div className="navbar navbar-inverse navbar-fixed-top">
+        </div>
+      </div>
+      <div className="navbar navbar-inverse navbar-fixed-top">
             <div className="container-fluid">
               <div className="row-fluid">
                 <div className="span12 horizontal">
@@ -112,12 +114,12 @@ export default class Resume extends Component{
                   </div>
                   <div className="row-fluid">
                     <div className="span4">
-                      <h2>Group Facilitator, YWCA Missoula</h2>
-                      <p>February 2016 - December 2016 <br/>Attended 40 hours of training to learn about relationship abuse in order to facilitate groups once a week</p>
+                      <h2>YWCA Missoula</h2>
+                      <p>Group Programs Facilitator<br/>February 2016 - December 2016 </p>
                     </div>
                     <div className="span4">
-                      <h2>After School Instructor, Flagship Program Lowell School Missoula, Montana</h2>
-                      <p>Lead after school science programs and summer camps for 3rd to 5th grade students</p>
+                      <h2>Flagship Program Lowell School</h2>
+                      <p> After School Instructor <br/>January 2015 - December 2015</p>
                     </div>
                   </div>
                 </div>

@@ -14,16 +14,16 @@ export default class Home extends Component {
         <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
           <div className="carousel-inner" role="listbox">
             <div className="carousel-item active">
-              <img className="d-block img-fluid" src="http://www.rebecca-king.com/uploads/2/1/4/6/21461784/7368421_orig.jpg" alt="Responsive"/>
+              <img className="d-block img-fluid" src="Lolo.jpg" alt="Responsive"/>
             </div>
             <div className="carousel-item">
-              <img className="d-block img-fluid" src="http://www.rebecca-king.com/uploads/2/1/4/6/21461784/6782988_orig.jpg" alt="Second slide"/>
+              <img className="d-block img-fluid" src="prairie.png" alt="Second slide"/>
             </div>
             <div className="carousel-item">
-              <img className="d-block img-fluid" src="https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/166223_10100302780522220_7092911_n.jpg?oh=d0b51012fe85e9000e009c6b2152d730&oe=59955468" alt="Third slide"/>
+              <img className="d-block img-fluid" src="Waddington.jpg" alt="Third slide"/>
             </div>
             <div className="carousel-item">
-              <img className="d-block img-fluid" src="http://www.rebecca-king.com/uploads/2/1/4/6/21461784/3946015_orig.jpg" alt="Fourth slide"/>
+              <img className="d-block img-fluid" src="mardigras.png" alt="Fourth slide"/>
             </div>
           </div>
           <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

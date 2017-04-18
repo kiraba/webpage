@@ -1,7 +1,6 @@
 $colorone: #222222;
 $colortwo: white;
 $colorthree: #008F68;
-$colorfour: #1cbe83;
 $main-font: 'Open Sans', sans-serif;
 $head-font: 'Nothing You Could Do', cursive;
 
@@ -37,7 +36,7 @@ body {
 
 /*Message*/
 .messageform{
-  margin-top: 60px;
+  margin-top: 50px;
   width: 75%;
 
   margin-left: auto;
@@ -47,18 +46,29 @@ body {
 
 }
 /*Resume*/
+.img-fluid{
+  margin-top: 50px;
+  border-bottom: solid $colorthree 1px;
+}
 .intro{
   margin: 25px;
-  margin-top: 60px;
+  margin-top: 20px;
   text-align: center;
   color: $colortwo;
   font-family: $main-font;
   font-size: 16px;
   h2{
     font-size: 22px;
+    color: $colorthree;
+  }
+  p{
+    color: $colorthree
   }
 }
 .education{
+  border-top: solid $colortwo 2px;
+  height: 200px;
+  padding: 30px;
   border-bottom: solid $colortwo 2px;
   text-align: center;
   margin: 20px;
@@ -119,6 +129,10 @@ p, h1, h2 { white-space: normal;}
 img{
   margin-top: 50px;
 }
+.icon, .funsite{
+  width: 30px;
+  height: 30px;
+}
 .links{
   text-align: center;
 }
@@ -128,7 +142,7 @@ a{
   text-align: center;
 }
 a:visited{
-    color: $colorfour;
+    color: $colorthree;
   }
 a:hover{
     color: $colorthree;
