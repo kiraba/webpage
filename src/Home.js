@@ -14,7 +14,7 @@ export default class Home extends Component {
         <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
           <div className="carousel-inner" role="listbox">
             <div className="carousel-item active">
-              <img className="d-block img-fluid" src="/Lolo.JPG" alt="Responsive"/>
+              <img className="d-block img-fluid" src="/Lolo.JPG" alt="First Slide"/>
             </div>
             <div className="carousel-item">
               <img className="d-block img-fluid" src="/prairie.png" alt="Second slide"/>

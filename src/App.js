@@ -10,18 +10,11 @@ import {
   Link
 } from 'react-router-dom'
 
-
-
-
-// class FourOhFour extends Component {
-//   render(){
-//     return <h1>Page not found. Please report to /Login and comply.</h1>
-//   }
-// }
-//<Route path='*' component={FourOhFour}/>
-
 export default class App extends Component{
   render(){ // the various routes to come in
+    $('.navbar-nav>li>Link').on('click', function(){
+        $('.navbar-collapse').collapse('hide');
+    });
     return (
       <Router className='page'>
       <div>
@@ -31,11 +24,11 @@ export default class App extends Component{
           </button>
           <a className="navbar-brand" href="./Home">Rebecca A. King</a>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <div className="navbar-nav">
-              <Link className="nav-item nav-link" to="/Home">Home</Link>
-              <Link className="nav-item nav-link" to="/Resume">Resume</Link>
-              <Link className="nav-item nav-link" to ="/Funstuff">Fun Stuff</Link>
-            </div>
+            <ul className="navbar-nav">
+              <li><a className="nav-item nav-link" href="/Home">Home</a></li>
+              <li><a className="nav-item nav-link" href="/Resume">Resume</a></li>
+              <li><a className="nav-item nav-link" href="/Funstuff">Fun Stuff</a></li>
+            </ul>
             </div>
         </nav>
         
