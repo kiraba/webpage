@@ -9,7 +9,7 @@ export default class Resume extends Component{
   render(){
     return(
       <div>
-      <img className="img-fluid" src="Glacier.jpg"/>
+      <img className="img-fluid" src="Glacier.JPG"/>
       <div className="intro">
         <p> cca.king@gmail.com | 628-204-7627 
         <a className="linkedin" href="https://www.linkedin.com/in/ccaking/"><img src="linkedin.png" className="icon" alt="responsive"/></a></p>
