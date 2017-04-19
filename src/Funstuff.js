@@ -25,7 +25,7 @@ export default class Home extends Component{
       </div>
         <div>
           <p className="links">
-          <a className="title" href="https://lightinthe.tumblr.com"><img src="tumblr.png" className="icon" alt="responsive"/></a><br/>
+          <a className="title" href="https://lightinthe.tumblr.com"><img src="tumblr.png" className="icon" alt="responsive"/></a>
           <a className="title" href="https://theoatmeal.com"><img src="theoatmeal.jpg" className="icon" alt="responsive"/></a>
           <a className="title" href="https://www.instagram.com/hijaiom/?hl=en"><img src="insta.png" className="icon" alt="responsive"/></a>
           </p>
@@ -35,7 +35,7 @@ export default class Home extends Component{
             Summer and Fall 2017 To Dos
           </a>
           <a href="http://www.runnersedgemt.com/events/eleven-miles-to-paradise-trail-race/" className="list-group-item list-group-item-action">11 Miles To Paridise - May 21st</a>
-          <a href="http://runchallis.com/" className="list-group-item list-group-item-action">River of No Return 50k Race - June 17th</a>
+          <a href="http://runchallis.com/" className="list-group-item list-group-item-action">River of No Return 50k - June 17th</a>
           <a href="http://runtherut.com/" className="list-group-item list-group-item-action">The Rut Mountain Runs 28K - September</a>
           <a href="#" className="list-group-item list-group-item-action disabled">Raft the Snake!</a>
         </div>

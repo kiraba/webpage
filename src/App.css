@@ -53,8 +53,15 @@ body {
   .intro h2 {
     font-size: 22px;
     color: #008F68; }
-  .intro p {
+  .intro .email {
+    color: #008F68 !important; }
+  .intro .project {
     color: #008F68; }
+  .intro p, .intro a {
+    color: white;
+    font-family: "Open Sans", sans-serif; }
+    .intro p .bowwow, .intro a .bowwow {
+      font-style: italic; }
 
 .education {
   border-top: solid white 2px;
@@ -63,7 +70,7 @@ body {
   text-align: center;
   margin: 20px; }
   .education h1 {
-    color: white;
+    color: #008F68;
     font-size: 22px; }
   .education h2 {
     color: white;
@@ -73,10 +80,8 @@ body {
     font-size: 12px; }
 
 .horizontal {
-  margin: 0;
-  padding: 0;
-  white-space: nowrap;
   border-bottom: solid white 2px;
+  white-space: nowrap;
   overflow-x: auto; }
 
 .horizontal > div {
@@ -84,7 +89,7 @@ body {
   float: none; }
 
 .horizontal > div:first-child {
-  margin-left: 100; }
+  margin: 0px 20px 0px 0px; }
 
 p, h1, h2 {
   white-space: normal; }
@@ -111,42 +116,39 @@ p, h1, h2 {
 
 /*fun stuffs*/
 .links {
-  margin: 100px;
+  margin-top: 100px;
   display: flex;
-  flex-wrap: wrap-reverse;
-  justify-content: center; }
+  justify-content: space-around; }
   .links img {
     width: 40px;
     height: 40px;
     border-radius: 25px 25px;
     border: solid #008F68 2px; }
 
-.title {
-  margin-top: 200px;
-  color: white !important;
-  font-size: 22px; }
-
-a {
-  font-family: "Nothing You Could Do", cursive;
-  text-align: center; }
-
-a:visited {
-  color: #008F68; }
-
-a:hover {
-  color: #008F68; }
-
-a:link {
-  color: white; }
-
-html {
-  position: relative;
-  min-height: 100%; }
-
 .list-group {
+  margin: 0px, auto, 0px, auto;
   margin-left: auto;
   margin-right: auto;
   width: 75%; }
+  .list-group .title {
+    color: #008F68;
+    font-size: 22px;
+    text-shadow: 2px 2px #222222;
+    text-align: center;
+    margin-top: 250px;
+    padding: 10px; }
+  .list-group a {
+    font-family: "Nothing You Could Do", cursive;
+    text-align: center; }
+  .list-group a:visited {
+    color: #008F68; }
+  .list-group a:hover {
+    color: #008F68; }
+  .list-group a:link {
+    color: white; }
+  .list-group html {
+    position: relative;
+    min-height: 100%; }
 
 .carousel-fade .carousel-inner .item {
   opacity: 0;
@@ -188,14 +190,14 @@ html {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0); } }
 .item:nth-child(1) {
-  background: url("../public/gettotheCHOPPA.JPG") no-repeat center center fixed;
+  background: url("../public/denalikidz.JPG") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
 
 .item:nth-child(2) {
-  background: url("../public/denalikidz.JPG") no-repeat center center fixed;
+  background: url("../public/gettotheCHOPPA.JPG") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -215,12 +217,5 @@ html {
   position: fixed;
   width: 100%;
   height: 100%; }
-
-.title {
-  text-align: center;
-  margin-top: 20px;
-  padding: 10px;
-  text-shadow: 2px 2px #000;
-  color: #FFF; }
 
 /*# sourceMappingURL=App.css.map */

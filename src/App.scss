@@ -69,8 +69,18 @@ body {
     font-size: 22px;
     color: $colorthree;
   }
-  p{
-    color: $colorthree
+  .email{
+    color: $colorthree !important;
+  }
+  .project{
+    color: $colorthree;
+  }
+  p, a{
+    color: $colortwo;
+    font-family: $main-font;
+    .bowwow{
+      font-style: italic;
+    }
   }
 }
 .education{
@@ -80,9 +90,8 @@ body {
   text-align: center;
   margin: 20px;
 
-
   h1{
-    color: $colortwo;
+    color: $colorthree;
     font-size: 22px;
   }
   h2{
@@ -95,15 +104,18 @@ body {
   }
 }
 .horizontal {
-    margin: 0;
-    padding: 0;
-    white-space: nowrap;
     border-bottom: solid $colortwo 2px;
+    white-space: nowrap;
     overflow-x: auto;
 }
-.horizontal > div { display: inline-block; float: none;}
+.horizontal > div { 
+  display: inline-block; 
+  float: none;
+}
 
-.horizontal > div:first-child { margin-left: 100;}
+.horizontal > div:first-child { 
+  margin: 0px 20px 0px 0px;
+}
 
 p, h1, h2 { white-space: normal;}
 
@@ -135,10 +147,9 @@ p, h1, h2 { white-space: normal;}
 /*fun stuffs*/
 
 .links{
-  margin: 100px;
+  margin-top: 100px;
   display: flex;
-  flex-wrap: wrap-reverse;
-  justify-content: center;
+  justify-content: space-around;
 
   img{
     width: 40px;
@@ -147,34 +158,39 @@ p, h1, h2 { white-space: normal;}
     border: solid $colorthree 2px;
   }
 }
-.title{
-  margin-top: 200px;
-  color: $colortwo !important;
-  font-size: 22px;
-}
-
-a{
-  font-family: $head-font;
-  text-align: center;
-}
-a:visited{
-    color: $colorthree;
-  }
-a:hover{
-    color: $colorthree;
-  }
-a:link{
-    color: $colortwo;
-  }
-html {
-    position: relative;
-    min-height: 100%;
-}
 .list-group{
+  margin: 0px, auto, 0px, auto;
   margin-left: auto;
   margin-right: auto;
   width: 75%;
-}
+  
+  .title{
+  color: $colorthree;
+  font-size: 22px;
+  text-shadow: 2px 2px $colorone;
+  text-align: center;
+  margin-top: 250px;
+  padding: 10px;
+  }
+
+  a{
+  font-family: $head-font;
+  text-align: center;
+  }
+  a:visited{
+    color: $colorthree;
+  }
+  a:hover{
+    color: $colorthree;
+  }
+  a:link{
+    color: $colortwo;
+  }
+  html {
+    position: relative;
+    min-height: 100%;
+  }
+} 
 
 .carousel-fade .carousel-inner .item {
     opacity: 0;
@@ -219,14 +235,14 @@ html {
     }
 }
 .item:nth-child(1) {
-    background: url("../public/gettotheCHOPPA.JPG") no-repeat center center fixed;
+    background: url("../public/denalikidz.JPG") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 .item:nth-child(2) {
-    background: url("../public/denalikidz.JPG") no-repeat center center fixed;
+    background: url("../public/gettotheCHOPPA.JPG") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -246,13 +262,6 @@ html {
     position: fixed;
     width: 100%;
     height: 100%;
-}
-.title {
-  text-align: center;
-  margin-top: 20px;
-  padding: 10px;
-  text-shadow: 2px 2px #000;
-  color: #FFF;
 }
 
 

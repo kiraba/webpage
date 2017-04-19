@@ -32,11 +32,11 @@ export default class App extends Component{
             </div>
         </nav>
         
-          <div>
-            <Route path='/Home' component={Home}/>
-            <Route path='/Resume' component={Resume}/>
-            <Route path='/Funstuff' component={Funstuff}/>
-          </div>
+            <div>
+              <Route path='/Home' component={Home}/>
+              <Route path='/Resume' component={Resume}/>
+              <Route path='/Funstuff' component={Funstuff}/>
+            </div>
           </div>
         </Router>
       
