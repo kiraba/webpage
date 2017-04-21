@@ -15,7 +15,7 @@ export default class Resume extends Component{
           <a className="linkedin" href="https://www.linkedin.com/in/ccaking/"><img src="linkedin.png" className="icon" alt="responsive"/></a></p>
           <p>I'm currently seeking opportunities to grow as an implementation consultant/liason or junior full-stack web developer. </p> <hr/>
           <h2>My current developer skillset includes:</h2><br/>
-            <p>Agile Methods, Git, JavaScript, React, SQL, MongoDB, Bootstrap, Sass, HTML and Node.JS</p><br/>
+            <p>Agile Methods, Github, JavaScript, React Native, SQL, MERN Stack, Bootstrap, CSS/Sass/Scss, HTML</p><br/>
             <p className="project">Project Links:<br/>
             <a className="bowwow" href="https://quiet-cliffs-16529.herokuapp.com/Login"> Bowwow Buddies - a Tinder for Dogs</a>
             </p>
@@ -29,7 +29,7 @@ export default class Resume extends Component{
         </div>
         <div>
             <h2>University of Illinois at Urbana-Champaign</h2>
-            <p>Graduated in December of 2009 <br/>Bachelor's in in Earth Systems</p>
+            <p>Graduated in December of 2009 <br/>Bachelor's in Earth Systems</p>
         </div>
       </div>
       <div className="navbar navbar-inverse navbar-fixed-top">
