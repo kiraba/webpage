@@ -34,8 +34,9 @@ export default class Home extends Component{
           <a href="#" className="title">
             Summer and Fall 2017 To Dos
           </a>
-          <a href="http://www.runnersedgemt.com/events/eleven-miles-to-paradise-trail-race/" className="list-group-item list-group-item-action">11 Miles To Paridise - May 21st</a>
-          <a href="http://runchallis.com/" className="list-group-item list-group-item-action">River of No Return 50k - June 17th</a>
+          <a href="http://www.runnersedgemt.com/events/eleven-miles-to-paradise-trail-race/" className="list-group-item list-group-item-action disabled">11 Miles To Paridise - May 21st -- Injured :(</a>
+          <a href="http://runchallis.com/" className="list-group-item list-group-item-action disabled">River of No Return 50k - June 17th --- Injured :(</a>
+          <a href="https://www.seeley50.com/" className="list-group-item list-group-item-action">Seeley Lake 50K - July 14th</a>  
           <a href="http://runtherut.com/" className="list-group-item list-group-item-action">The Rut Mountain Runs 28K - September</a>
           <a href="#" className="list-group-item list-group-item-action disabled">Raft the Snake!</a>
         </div>
