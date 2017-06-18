@@ -17,7 +17,7 @@ export default class Resume extends Component{
           <h2>My current developer skillset includes:</h2><br/>
             <p>Agile Methods, Github, JavaScript, React Native, SQL, MERN Stack, Bootstrap, CSS/Sass/Scss, HTML</p><br/>
             <p className="project">Project Links:<br/>
-            <a className="fun-d" href="https://fun-d.herokuapp.com/">fun-d - A Social Media Fundraising Website and App for Non-Profits</a>
+            <a className="fun-d" href="https://fun-d.herokuapp.com/">fun-d - A Social Media Fundraising Website and App for Non-Profits</a><br/>
             <a className="bowwow" href="https://quiet-cliffs-16529.herokuapp.com/Login"> Bowwow Buddies - a Tinder for Dogs</a>
             </p>
         </div>
