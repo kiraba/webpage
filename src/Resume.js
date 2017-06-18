@@ -17,6 +17,7 @@ export default class Resume extends Component{
           <h2>My current developer skillset includes:</h2><br/>
             <p>Agile Methods, Github, JavaScript, React Native, SQL, MERN Stack, Bootstrap, CSS/Sass/Scss, HTML</p><br/>
             <p className="project">Project Links:<br/>
+            <a className="fun-d" href="https://fun-d.herokuapp.com/">fun-d - A Social Media Fundraising Website and App for Non-Profits</a>
             <a className="bowwow" href="https://quiet-cliffs-16529.herokuapp.com/Login"> Bowwow Buddies - a Tinder for Dogs</a>
             </p>
         </div>
@@ -41,6 +42,11 @@ export default class Resume extends Component{
               <p>Technical, leadership, decision-making and communication skills, as well as an understanding of logistical operations developed from over 10 years of working in tourism, hospitality and sales.</p>
             </div>
             <div className="row-fluid">
+              <div className="span4">
+                <h2>Server</h2>
+                     <p>December 2016-Present<br/>                                                                                          
+                        Lochsa Lodge Resort, Powell, Idaho</p>
+              </div>
               <div className="span4">
                 <h2>Assistant Manager</h2>
                      <p>October 2014 – December 2016<br/>                                                                                          
