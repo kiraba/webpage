@@ -111,7 +111,7 @@ export default class Resume extends Component{
           <div className="row-fluid">
               <div className="span12 horizontal">
                 <div className="experience">
-                  <h1>Volunteer Work and Certifications</h1>
+                  <h1>Volunteer Work, Leadership Training and Certifications</h1>
                 </div>
                 <div className="row-fluid">
                   <div className="span4">
@@ -122,6 +122,9 @@ export default class Resume extends Component{
                     <h2>Flagship Program Lowell School</h2>
                     <p> After School Instructor <br/>January 2015 - December 2015</p>
                   </div>
+                  <div className="span5">
+                    <h2>National Outdoor Leadership School - Waddington Range Mountaineering</h2>
+                    <p>Persevered with my team through 25,000 feet of elevation change <br/>over 65 miles of travel through thick brush, steep snow, ice and rocky terrain for 30 days<br/>July 2009</p>
                   <div className="span4">
                     <h2>Certifications</h2>
                     <p>Wilderness First Responder, Montana Master Naturalist, PADI Open Water Diver, Leave No Trace Trainer</p>
