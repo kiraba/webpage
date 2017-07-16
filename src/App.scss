@@ -1,0 +1,268 @@
+$colorone: #222222;
+$colortwo: white;
+$colorthree: #008F68;
+$main-font: 'Open Sans', sans-serif;
+$head-font: 'Nothing You Could Do', cursive;
+
+nav {
+  font-family: $head-font;
+  background: $colortwo;
+  min-height: 50px;
+  border-bottom: solid $colorthree 2px;
+}
+
+.navbar-toggler{
+  border: none;
+}
+
+.email, .phone{
+  text-align: center;
+  color: $colorthree;
+  font-family: $main-font;
+
+}
+/*Home*/
+.carousel{
+  width: 100%
+}
+.img-fluid{
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background: $colorone
+}
+
+/*Message*/
+.messageform{
+  margin-top: 50px;
+  width: 75%;
+
+  margin-left: auto;
+  margin-right: auto;
+  font-family: $main-font;
+  color: $colorthree;
+
+}
+/*Resume*/
+.img-fluid{
+  margin-top: 50px;
+  border-bottom: solid $colorthree 1px;
+}
+.linkedin{
+  img{
+  border-radius: 50px 50px;
+  width: 30px;
+  height: 30px;
+  float: right;
+  }
+}
+.intro{
+  margin: 25px;
+  margin-top: 20px;
+  text-align: center;
+  color: $colortwo;
+  font-family: $main-font;
+  font-size: 16px;
+  h2{
+    font-size: 22px;
+    color: $colorthree;
+  }
+  .email{
+    color: $colorthree !important;
+  }
+  .project{
+    color: $colorthree;
+  }
+  p, a{
+    color: $colortwo;
+    font-family: $main-font;
+    .bowwow{
+      font-style: italic;
+    }
+  }
+}
+.education{
+  border-top: solid $colortwo 2px;
+  padding: 30px;
+  border-bottom: solid $colortwo 2px;
+  text-align: center;
+  margin: 20px;
+
+  h1{
+    color: $colorthree;
+    font-size: 22px;
+  }
+  h2{
+    color: $colortwo;
+    font-size: 16px;
+  }
+  p{
+    color: $colorthree;
+    font-size: 12px;
+  }
+}
+.horizontal {
+    border-bottom: solid $colortwo 2px;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+.horizontal > div { 
+  display: inline-block; 
+  float: none;
+}
+
+.horizontal > div:first-child { 
+  margin: 0px 20px 0px 0px;
+}
+
+p, h1, h2 { white-space: normal;}
+
+.experience{
+  font-family: $main-font;
+  vertical-align: top;
+  width: 50%;
+  h1{
+    font-size: 22px;
+    color: $colortwo;
+  }
+  p{
+  color: $colorthree;
+  font-family: $main-font;
+  font-size: 12px; 
+  }
+}
+.span4{
+  color: $colorthree;
+  font-family: $main-font;
+  h2{
+    font-size: 16px;
+  }
+  p{
+    font-size: 12px;
+  }
+}
+
+/*fun stuffs*/
+
+.links{
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+
+  img{
+    width: 40px;
+    height: 40px;
+    border-radius: 25px 25px;
+    border: solid $colorthree 2px;
+  }
+}
+.list-group{
+  margin: 0px, auto, 0px, auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  
+  .title{
+  color: $colorthree;
+  font-size: 22px;
+  text-shadow: 2px 2px $colorone;
+  text-align: center;
+  margin-top: 250px;
+  padding: 10px;
+  }
+
+  a{
+  font-family: $head-font;
+  text-align: center;
+  }
+  a:visited{
+    color: $colorthree;
+  }
+  a:hover{
+    color: $colorthree;
+  }
+  a:link{
+    color: $colortwo;
+  }
+  html {
+    position: relative;
+    min-height: 100%;
+  }
+} 
+
+.carousel-fade .carousel-inner .item {
+    opacity: 0;
+    transition-property: opacity;
+}
+.carousel-fade .carousel-inner .active {
+    opacity: 1;
+}
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+    left: 0;
+    opacity: 0;
+    z-index: 1;
+}
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+    opacity: 1;
+}
+.carousel-fade .carousel-control {
+    z-index: 2;
+}
+@media all and (transform-3d),
+(-webkit-transform-3d) {
+    .carousel-fade .carousel-inner > .item.next,
+    .carousel-fade .carousel-inner > .item.active.right {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.prev,
+    .carousel-fade .carousel-inner > .item.active.left {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.next.left,
+    .carousel-fade .carousel-inner > .item.prev.right,
+    .carousel-fade .carousel-inner > .item.active {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+.item:nth-child(1) {
+    background: url("../public/denalikidz.JPG") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.item:nth-child(2) {
+    background: url("../public/gettotheCHOPPA.JPG") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.item:nth-child(3) {
+    background: url(https://unsplash.imgix.net/photo-1414073875831-b47709631146?q=75&fm=jpg&s=731b6d5150eea8bafa63ae8194e72ebd) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.carousel {
+    z-index: -99;
+}
+.carousel .item {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+
+
