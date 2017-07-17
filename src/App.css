@@ -146,7 +146,8 @@ p, h1, h2 {
     padding: 10px; }
   .list-group a {
     font-family: "Open Sans", sans-serif;
-    text-align: center; }
+    text-align: center;
+    color: #008F68; }
   .list-group a:visited {
     color: #008F68; }
   .list-group a:hover {
