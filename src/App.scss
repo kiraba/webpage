@@ -108,12 +108,12 @@ body {
     white-space: nowrap;
     overflow-x: auto;
 }
-.horizontal > div { 
-  display: inline-block; 
+.horizontal > div {
+  display: inline-block;
   float: none;
 }
 
-.horizontal > div:first-child { 
+.horizontal > div:first-child {
   margin: 0px 20px 0px 0px;
 }
 
@@ -130,7 +130,7 @@ p, h1, h2 { white-space: normal;}
   p{
   color: $colorthree;
   font-family: $main-font;
-  font-size: 12px; 
+  font-size: 12px;
   }
 }
 .span4{
@@ -156,25 +156,33 @@ p, h1, h2 { white-space: normal;}
     height: 40px;
     border-radius: 25px 25px;
     border: solid $colorthree 2px;
+    display: inline;
+  }
+  a{
+    text-shadow: .5px .5px $colorone;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: $head-font;
+    color: $colorthree;
+    display: inline;
   }
 }
 .list-group{
-  margin: 0px, auto, 0px, auto;
   margin-left: auto;
   margin-right: auto;
   width: 75%;
-  
+
   .title{
   color: $colorthree;
   font-size: 22px;
-  text-shadow: 2px 2px $colorone;
+  text-shadow: 1px 1px $colorone;
   text-align: center;
-  margin-top: 250px;
+  margin-top: 200px;
   padding: 10px;
   }
 
   a{
-  font-family: $head-font;
+  font-family: $main-font;
   text-align: center;
   }
   a:visited{
@@ -190,7 +198,7 @@ p, h1, h2 { white-space: normal;}
     position: relative;
     min-height: 100%;
   }
-} 
+}
 
 .carousel-fade .carousel-inner .item {
     opacity: 0;
@@ -235,14 +243,14 @@ p, h1, h2 { white-space: normal;}
     }
 }
 .item:nth-child(1) {
-    background: url("../public/denalikidz.JPG") no-repeat center center fixed;
+    background: url("./denalikidz.JPG") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 .item:nth-child(2) {
-    background: url("../public/gettotheCHOPPA.JPG") no-repeat center center fixed;
+    background: url("./gettotheCHOPPA.JPG") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -263,6 +271,3 @@ p, h1, h2 { white-space: normal;}
     width: 100%;
     height: 100%;
 }
-
-
-

@@ -7,22 +7,11 @@ import {
   Route,
   Link
 } from 'react-router-dom'
-import { Jumbotron, Button } from 'react-bootstrap';
 
 export default class Home extends Component {
-  getInitialState(){
-    return { showJumbo: false};
-  }
-  close(){
-    this.setState({ showJumbo: false});
-  }
-  open(){
-    this.setState({ showJumbo: true});
-  }
-
   render(){
     return(
-    <div>
+      <div>
              <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
                <ol className="carousel-indicators">
                  <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>

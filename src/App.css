@@ -123,22 +123,29 @@ p, h1, h2 {
     width: 40px;
     height: 40px;
     border-radius: 25px 25px;
-    border: solid #008F68 2px; }
+    border: solid #008F68 2px;
+    display: inline; }
+  .links a {
+    text-shadow: 0.5px 0.5px #222222;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: "Nothing You Could Do", cursive;
+    color: #008F68;
+    display: inline; }
 
 .list-group {
-  margin: 0px, auto, 0px, auto;
   margin-left: auto;
   margin-right: auto;
   width: 75%; }
   .list-group .title {
     color: #008F68;
     font-size: 22px;
-    text-shadow: 2px 2px #222222;
+    text-shadow: 1px 1px #222222;
     text-align: center;
-    margin-top: 250px;
+    margin-top: 200px;
     padding: 10px; }
   .list-group a {
-    font-family: "Nothing You Could Do", cursive;
+    font-family: "Open Sans", sans-serif;
     text-align: center; }
   .list-group a:visited {
     color: #008F68; }

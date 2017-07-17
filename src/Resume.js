@@ -133,16 +133,15 @@ export default class Resume extends Component{
                     <p> After School Instructor <br/>January 2015 - December 2015</p>
                   </div>
                   <div className="span4">
-                    <h2>National Outdoor Leadership School - Waddington Range Mountaineering</h2>
-                    <p>Persevered with my team through 25,000 feet of elevation change
+                    <h2>National Outdoor Leadership School<br/>Waddington Range Mountaineering</h2>
+                    <p>July 2009<br/>Persevered with my team through 25,000 feet of elevation change
                       <br/>over 65 miles of travel through thick brush, steep snow, ice and
-                        rocky terrain for 30 days
-                        <br/>July 2009</p>
+                        rocky terrain for 30 days</p>
                   </div>
                   <div className="span4">
                     <h2>Certifications</h2>
                     <p>Wilderness First Responder, Montana Master Naturalist,
-                      PADI Open Water Diver, Leave No Trace Trainer</p>
+                      <br/>PADI Open Water Diver, Leave No Trace Trainer</p>
                   </div>
                 </div>
               </div>

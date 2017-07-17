@@ -25,9 +25,9 @@ export default class Home extends Component{
       </div>
         <div>
           <p className="links">
-          <a className="title" href="https://lightinthe.tumblr.com"><img src="tumblr.png" className="icon" alt="responsive"/></a>
-          <a className="title" href="https://theoatmeal.com"><img src="theoatmeal.jpg" className="icon" alt="responsive"/></a>
-          <a className="title" href="https://www.instagram.com/hijaiom/?hl=en"><img src="insta.png" className="icon" alt="responsive"/></a>
+          <a className="title" href="https://lightinthe.tumblr.com"><img src="tumblr.png" className="icon" alt="responsive"/>tumblr</a>
+          <a className="title" href="https://theoatmeal.com"><img src="theoatmeal.jpg" className="icon" alt="responsive"/>The Oatmeal</a>
+          <a className="title" href="https://www.instagram.com/hijaiom/?hl=en"><img src="insta.png" className="icon" alt="responsive"/>Instagram</a>
           </p>
         </div>
         <div className="list-group">
@@ -38,8 +38,10 @@ export default class Home extends Component{
           <a href="http://runchallis.com/" className="list-group-item list-group-item-action">River of No Return 50k - June 17th --- Injured :(</a>
           <a href="https://www.seeley50.com/" className="list-group-item list-group-item-action">Seeley Lake 50K - July 14th - Finished!  5th Overall, 2nd Women's       Time: 5:38:10</a>
           <a href="http://runtherut.com/" className="list-group-item list-group-item-action">The Rut Mountain Runs 28K - September</a>
-          <a href="http://snakeriveradventures.com/historic-sheep-creek-ranch/" className="list-group-item list-group-item-action">Raft the Snake and Officiate a Wedding! June 23rd - July 1st -- Done!</a>
+          <a href="http://snakeriveradventures.com/historic-sheep-creek-ranch/" className="list-group-item list-group-item-action">Raft the Snake and officiate a wedding! June 23rd - July 1st -- Done!</a>
+          <a href="#" className="list-group-item list-group-item-action">Two week outdoor job near Sun Valley, Idaho!  July 15th - 30th</a>
         </div>
+        <p> I tend to take summer seriously...</p>
       </div>
     )
   }
