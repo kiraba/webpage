@@ -170,6 +170,7 @@ p, h1, h2 { white-space: normal;}
 .list-group{
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
   width: 75%;
 
   .title{
@@ -181,11 +182,7 @@ p, h1, h2 { white-space: normal;}
   padding: 10px;
   }
 
-  a{
-  font-family: $main-font;
-  text-align: center;
-  color: $colorthree;
-  }
+
   a:visited{
     color: $colorthree;
   }
@@ -194,10 +191,6 @@ p, h1, h2 { white-space: normal;}
   }
   a:link{
     color: $colortwo;
-  }
-  html {
-    position: relative;
-    min-height: 100%;
   }
 }
 

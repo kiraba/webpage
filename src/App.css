@@ -136,6 +136,7 @@ p, h1, h2 {
 .list-group {
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
   width: 75%; }
   .list-group .title {
     color: #008F68;
@@ -144,19 +145,12 @@ p, h1, h2 {
     text-align: center;
     margin-top: 200px;
     padding: 10px; }
-  .list-group a {
-    font-family: "Open Sans", sans-serif;
-    text-align: center;
-    color: #008F68; }
   .list-group a:visited {
     color: #008F68; }
   .list-group a:hover {
     color: #008F68; }
   .list-group a:link {
     color: white; }
-  .list-group html {
-    position: relative;
-    min-height: 100%; }
 
 .carousel-fade .carousel-inner .item {
   opacity: 0;
