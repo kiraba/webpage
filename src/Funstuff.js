@@ -41,6 +41,7 @@ export default class Home extends Component{
           <ListGroupItem href="http://runtherut.com/" target="_blank" className="list-group-item list-group-item-action">The Rut Mountain Runs 28K - September 2nd</ListGroupItem>
           <ListGroupItem href="http://snakeriveradventures.com/historic-sheep-creek-ranch/" target="_blank" className="list-group-item list-group-item-action">Raft the Snake and officiate a wedding! June 23rd - July 1st -- Done!</ListGroupItem>
           <ListGroupItem href="http://www.ercsv.org/" target="_blank" className="list-group-item list-group-item-action">Two week outdoor job near Sun Valley, Idaho!  July 15th - 30th</ListGroupItem>
+          <ListGroupItem href="http://redantspantsmusicfestival.com/" target="_blank" className="list-group-item list-group-item-action">Red Ants Pants Festival July 27th-30th</ListGroupItem>
         </ListGroup>
         <p> I tend to take summer seriously...</p>
       </div>
