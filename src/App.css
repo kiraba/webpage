@@ -37,8 +37,9 @@ body {
   margin-top: 50px;
   border-bottom: solid #008F68 1px; }
 
-.linkedin img {
-  border-radius: 50px 50px;
+.linkedin img, .github img {
+  border-radius: 30px 30px 30px 30px;
+  border: 1px solid;
   width: 30px;
   height: 30px;
   float: right; }

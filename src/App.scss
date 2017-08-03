@@ -50,9 +50,10 @@ body {
   margin-top: 50px;
   border-bottom: solid $colorthree 1px;
 }
-.linkedin{
+.linkedin, .github{
   img{
-  border-radius: 50px 50px;
+  border-radius: 30px 30px 30px 30px;
+  border: 1px solid;
   width: 30px;
   height: 30px;
   float: right;

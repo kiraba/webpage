@@ -12,8 +12,10 @@ export default class Resume extends Component{
 
         <div className="intro">
           <p className= "email"> cca.king@gmail.com | 628-204-7627
-          <a className="linkedin" href="https://www.linkedin.com/in/ccaking/">
-            <img src="./linkedin.png" className="icon" alt="responsive"/></a></p>
+          <a className="linkedin" target="_blank" href="https://www.linkedin.com/in/ccaking/">
+            <img src="./linkedin.png" className="icon" alt="responsive"/></a>
+              <a className="github" target="_blank" href="https://github.com/kiraba">
+                <img src="./github.png" className="icon" alt="responsive"/></a></p>
           <p>I'm currently seeking opportunities to grow as an implementation
             consultant/liason or junior full-stack web developer. </p> <hr/>
           <h2>My current developer skillset includes:</h2><br/>
