@@ -9,15 +9,20 @@ export default class Resume extends Component{
     return (
       <div>
         <img className="img-fluid" src="./Glacier.JPG" alt="img"/>
-
         <div className="intro">
-          <p className= "email"> cca.king@gmail.com | 628-204-7627
-          <a className="linkedin" target="_blank" href="https://www.linkedin.com/in/ccaking/">
-            <img src="./linkedin.png" className="icon" alt="responsive"/></a>
-              <a className="github" target="_blank" href="https://github.com/kiraba">
-                <img src="./github.png" className="icon" alt="responsive"/></a></p>
-          <p>I'm currently seeking opportunities to grow as an implementation
-            consultant/liason or junior full-stack web developer. </p> <hr/>
+          <p className= "email">
+            cca.king@gmail.com | 628-204-7627
+          </p>
+          <p>
+            <a className="linkedin" target="_blank" href="https://www.linkedin.com/in/ccaking/">
+              <img src="./linkedin.png" className="icon" alt="responsive"/></a>
+            <a className="github" target="_blank" href="https://github.com/kiraba">
+              <img src="./github.png" className="icon" alt="responsive"/></a>
+          </p>
+          <p>
+            I'm currently seeking opportunities to grow as an implementation
+            consultant/liason or junior full-stack web developer.
+          </p> <hr/>
           <h2>My current developer skillset includes:</h2><br/>
             <p>Agile Methods, Github, JavaScript, React Native, SQL, MERN Stack,
               Bootstrap, CSS/Sass/Scss, HTML</p><br/>
