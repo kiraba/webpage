@@ -10,6 +10,19 @@ import {
 
 export default class Home extends Component {
   render(){
+    $(function () {
+      const $panorama = $('.panorama');
+      const left = $panorama.offset();
+      const width = $panorama.width();
+      $('.panorama').mousemove(function (e) {
+        const offset = e.pageX - left;
+        const percentage = offset / width * 100;
+
+    $panorama.css('background-position', percentage + '% 0');
+
+  });
+
+});
     return(
       <div>
              <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">

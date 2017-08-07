@@ -163,7 +163,7 @@ p, h1, h2 {
   .list-group a:hover {
     color: #008F68; }
   .list-group a:link {
-    color: white; }
+    color: #008F68; }
 
 .carousel-fade .carousel-inner .item {
   opacity: 0;
