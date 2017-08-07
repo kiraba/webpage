@@ -80,8 +80,6 @@ body {
   .intro p, .intro a {
     color: white;
     font-family: "Open Sans", sans-serif; }
-    .intro p .bowwow, .intro a .bowwow {
-      font-style: italic; }
 
 .education {
   border-top: solid white 2px;
