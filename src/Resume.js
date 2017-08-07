@@ -28,9 +28,9 @@ export default class Resume extends Component{
               Bootstrap, CSS/Sass/Scss, HTML</p><br/>
             <p className="project">Project Links:<br/>
             <a className="fun-d" target="_blank" href="https://fun-d.herokuapp.com/">
-              fun-d - A Social Media Fundraising Website and App for Non-Profits</a><br/>
+              fun-d - A Social Media Fundraising Website and Android/IOS App</a><br/>
             <a className="bowwow" target="_blank" href="https://quiet-cliffs-16529.herokuapp.com/Login">
-              Bowwow Buddies - a Tinder for Dogs</a>
+              Bowwow Buddies - Tinder for Dogs</a>
             </p>
         </div>
       <div className="education">
