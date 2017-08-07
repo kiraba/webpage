@@ -56,24 +56,26 @@ body {
   right: 50px;
   top: 15%;
     img{
+      margin: 5px;
       height: 100%;
       border: $colorthree solid 2px;
       border-radius: 25px 25px;
-      width: 30px;
-      height: 30px;
+      width: 40px;
+      height: 40px;
   }
 }
 .github{
   position: absolute;
   height: 100%;
-  right: 10px;
+  right: 5px;
   top: 15%;
     img{
+      margin: 5px;
       height: 100%;
       border: $colorthree solid 2px;
       border-radius: 25px 25px;
-      width: 30px;
-      height: 30px;
+      width: 40px;
+      height: 40px;
   }
 }
 .intro{
@@ -167,12 +169,12 @@ p, h1, h2 { white-space: normal;}
 .links{
   position: absolute;
   height: 100%;
-  right: 50px;
+  right: 5px;
   top: 15%;
   img{
     margin: 5px;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     border-radius: 25px 25px;
     border: solid $colorthree 2px;
   }
@@ -185,8 +187,9 @@ p, h1, h2 { white-space: normal;}
 
   .title{
   color: $colorthree;
+  font-weight: bold;
   font-size: 22px;
-  text-shadow: 1px 1px $colorone;
+  text-shadow: 2px 2px 2px $colorone;
   text-align: center;
   margin-top: 200px;
   padding: 10px;
