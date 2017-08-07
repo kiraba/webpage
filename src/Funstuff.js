@@ -26,9 +26,9 @@ export default class Home extends Component{
       </div>
         <div>
           <p className="links">
-          <a className="title" href="https://lightinthe.tumblr.com"><img src="tumblr.png" className="icon" alt="responsive"/></a>
-          <a className="title" href="https://theoatmeal.com"><img src="theoatmeal.jpg" className="icon" alt="responsive"/></a>
-          <a className="title" href="https://www.instagram.com/hijaiom/?hl=en"><img src="insta.png" className="icon" alt="responsive"/></a>
+          <a className="title" href="https://lightinthe.tumblr.com" target="_blank"><img src="tumblr.png" className="icon" alt="responsive"/></a>
+          <a className="title" href="https://theoatmeal.com" target="_blank"><img src="theoatmeal.jpg" className="icon" alt="responsive"/></a>
+          <a className="title" href="https://www.instagram.com/hijaiom/?hl=en" target="_blank"><img src="insta.png" className="icon" alt="responsive"/></a>
           </p>
         </div>
         <ListGroup>
@@ -43,7 +43,7 @@ export default class Home extends Component{
           <ListGroupItem href="http://www.ercsv.org/" target="_blank" className="list-group-item list-group-item-action">Two week outdoor job near Sun Valley, Idaho!  July 15th - 30th</ListGroupItem>
           <ListGroupItem href="http://redantspantsmusicfestival.com/" target="_blank" className="list-group-item list-group-item-action">Red Ants Pants Festival July 27th-30th</ListGroupItem>
         </ListGroup>
-        <p> I tend to take summer seriously...</p>
+        <p> I tend to take summer seriously...shhhh</p>
       </div>
     )
   }
