@@ -17,7 +17,7 @@ export default class Resume extends Component{
               <img src="./github.png" className="icon" alt="responsive"/></a>
           </p>
           <p className= "email">
-            cca.king@gmail.com | 628-204-7627
+            cca.king@gmail.com | 618-204-7627
           </p>
           <p>
             I'm currently seeking opportunities to grow as an implementation
