@@ -8,7 +8,11 @@ nav {
   font-family: $head-font;
   background: $colortwo;
   min-height: 50px;
+  font-size: calc(2vh + 1vw);
   border-bottom: solid $colorthree 2px;
+}
+.navbar-brand {
+  font-size: calc(3vh + 2vw);
 }
 
 .navbar-toggler{
@@ -53,7 +57,7 @@ body {
 .linkedin{
   position: absolute;
   height: 100%;
-  right: 50px;
+  right: 110px;
   top: 15%;
     img{
       margin: 5px;
@@ -67,7 +71,21 @@ body {
 .github{
   position: absolute;
   height: 100%;
-  right: 5px;
+  right: 60px;
+  top: 15%;
+    img{
+      margin: 5px;
+      height: 100%;
+      border: $colorthree solid 2px;
+      border-radius: 25px 25px;
+      width: 40px;
+      height: 40px;
+  }
+}
+.codepen{
+  position: absolute;
+  height: 100%;
+  right: 10px;
   top: 15%;
     img{
       margin: 5px;

@@ -15,6 +15,9 @@ export default class Resume extends Component{
               <img src="./linkedin.png" className="icon" alt="responsive"/></a>
             <a className="github" target="_blank" href="https://github.com/kiraba">
               <img src="./github.png" className="icon" alt="responsive"/></a>
+            <a className="codepen" target="_blank" href="https://codepen.io/kiraba/">
+              <img src="https://blog.codepen.io/wp-content/uploads/2012/06/Button-Fill-Black-Small.png"
+                className="icon" alt="responsive"/></a>
           </p>
           <p className= "email">
             cca.king@gmail.com | 618-204-7627
