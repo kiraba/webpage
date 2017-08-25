@@ -8,11 +8,12 @@ nav {
   font-family: $head-font;
   background: $colortwo;
   min-height: 50px;
-  font-size: calc(2vh + 1vw);
+  font-size: 20px;
+  padding-left: 15px;
   border-bottom: solid $colorthree 2px;
 }
 .navbar-brand {
-  font-size: calc(3vh + 2vw);
+  font-size: 25px;
 }
 
 .navbar-toggler{
