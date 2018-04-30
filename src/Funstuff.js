@@ -27,7 +27,6 @@ export default class Home extends Component{
         <div>
           <p className="links">
           <a className="title" href="https://lightinthe.tumblr.com" target="_blank"><img src="tumblr.png" className="icon" alt="responsive"/></a>
-          <a className="title" href="https://theoatmeal.com" target="_blank"><img src="theoatmeal.jpg" className="icon" alt="responsive"/></a>
           <a className="title" href="https://www.instagram.com/hijaiom/?hl=en" target="_blank"><img src="insta.png" className="icon" alt="responsive"/></a>
           </p>
         </div>
