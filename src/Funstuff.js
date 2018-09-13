@@ -9,12 +9,11 @@ import {
   Link
 } from 'react-router-dom'
 
-export default class Home extends Component{
-
+export default class Funstuff extends Component{
   render(){ // the various routes to come in
     return (
-      <div>
-      <div className="carousel slide carousel-fade" data-ride="carousel">
+      <div className="funstuff">
+       <div className="carousel slide carousel-fade" data-ride="carousel">
           <div className="carousel-inner" role="listbox">
               <div className="item active">
               </div>
@@ -23,7 +22,7 @@ export default class Home extends Component{
               <div className="item">
               </div>
           </div>
-      </div>
+        </div>
         <div>
           <p className="links">
           <a className="title" href="https://lightinthe.tumblr.com" target="_blank"><img src="tumblr.png" className="icon" alt="responsive"/></a>
@@ -42,8 +41,14 @@ export default class Home extends Component{
           <ListGroupItem href="http://www.ercsv.org/" target="_blank" className="list-group-item list-group-item-action">Two week outdoor job near Sun Valley, Idaho!  July 15th - 30th</ListGroupItem>
           <ListGroupItem href="http://redantspantsmusicfestival.com/" target="_blank" className="list-group-item list-group-item-action">Red Ants Pants Festival July 27th-30th</ListGroupItem>
         </ListGroup>
-        <p> I tend to take summer seriously...shhhh</p>
+       <div className="video-background">
+         <iframe className="video" src="https://player.vimeo.com/video/267345850?autoplay=1&loop=1&title=0&byline=0&portrait=0" position= "absolute" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen scrolling="no" frameBorder="0" allowTransparency="true" ></iframe>
+         <script src="https://player.vimeo.com/api/player.js"></script>
+        </div>
+
+
+
       </div>
-    )
+    );
   }
 }

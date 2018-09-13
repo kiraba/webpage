@@ -12,26 +12,6 @@ import {
 } from 'react-router-dom';
 
 export default class App extends Component{
-//   render(){
-//     return(
-//   <Navbar fixedTop fluid>
-//     <Navbar.Header>
-//       <Navbar.Brand>
-//         <a>Rebecca King</a>
-//       </Navbar.Brand>
-//     </Navbar.Header>
-//
-//       <Nav pullRight>
-//         <NavItem href='./Resume'>Resume</NavItem>
-//         <NavItem href='./Funstuff'>Fun Stuff</NavItem>
-//       </Nav>
-//
-//   </Navbar>
-// );
-//   }
-// }
-//
-//  ReactDOM.render(navbarInstance, mountNode);
   render() { // the various routes to come in
     $('.navbar-nav>li>Link').on('click', function(){
         $('.navbar-collapse').collapse('hide');
@@ -52,7 +32,6 @@ export default class App extends Component{
             <ul className="nav navbar-nav">
               <li><a className="nav-item nav-link" href="/Home">Home</a></li>
               <li><a className="nav-item nav-link" href="/Resume">Resume</a></li>
-              <li><a className="nav-item nav-link" href="/Funstuff">Fun Stuff</a></li>
             </ul>
             </div>
         </nav>
@@ -62,7 +41,7 @@ export default class App extends Component{
               <Route path='/Resume' component={Resume}/>
               <Route path='/Funstuff' component={Funstuff}/>
             </div>
-          </div>
+        </div>
         </Router>
 
     );

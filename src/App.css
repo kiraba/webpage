@@ -1,10 +1,10 @@
 nav {
   font-family: "Nothing You Could Do", cursive;
-  background: white;
-  min-height: 50px;
+  background-color: #fff;
+  background-color: rgba(255,255,255,0.5);
   font-size: 20px;
   padding-left: 15px;
-  border-bottom: solid #008F68 2px; }
+  /*border-bottom: solid #008F68 2px;*/ }
 
 .navbar-brand {
   font-size: 25px; }
@@ -24,24 +24,19 @@ nav {
   height: 80%; }
 
 body {
-  background: #222222; }
+  background: white;
+  width: 100%;
+  height: 100%;
+}
 
-/*Message*/
-.messageform {
-  margin-top: 50px;
-  width: 75%;
-  margin-left: auto;
-  margin-right: auto;
-  font-family: "Open Sans", sans-serif;
-  color: #008F68; }
+
 
 /*Resume*/
-.img-fluid {
-  margin-top: 50px;
-  border-bottom: solid #008F68 1px; }
+/*.img-fluid {
+  border-bottom: solid #008F68 1px; }*/
 
 .linkedin {
-  position: absolute;
+  position: fixed;
   height: 100%;
   right: 110px;
   top: 15%; }
@@ -54,7 +49,7 @@ body {
     height: 40px; }
 
 .github {
-  position: absolute;
+  position: fixed;
   height: 100%;
   right: 60px;
   top: 15%; }
@@ -67,7 +62,7 @@ body {
     height: 40px; }
 
 .codepen {
-  position: absolute;
+  position: fixed;
   height: 100%;
   right: 10px;
   top: 15%; }
@@ -107,11 +102,13 @@ body {
     color: #008F68;
     font-size: 22px; }
   .education h2 {
-    color: white;
-    font-size: 16px; }
-  .education p {
     color: #008F68;
-    font-size: 12px; }
+    font-size: 16px; }
+  .education p, .project a {
+    color: #008F68;
+    font-size: 12px;
+    text-decoration: none;
+  }
 
 .horizontal {
   border-bottom: solid white 2px;
@@ -134,7 +131,7 @@ p, h1, h2 {
   width: 50%; }
   .experience h1 {
     font-size: 22px;
-    color: white; }
+    color: #008F68; }
   .experience p {
     color: #008F68;
     font-family: "Open Sans", sans-serif;
@@ -161,25 +158,265 @@ p, h1, h2 {
     border-radius: 25px 25px;
     border: solid #008F68 2px; }
 
+    @import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans');
+    html, body{
+      font-family: 'Open Sans', sans-serif;
+      max-width: 100vw;
+      padding: 0;
+      margin: 0;
+    }
+
+
+    .example-wrapper{
+      position: relative;
+    }
+    .example-container{
+      box-sizing: border-box;
+      height: 100vh;
+      display: flex;
+      padding: 1em;
+      overflow-x: scroll;
+      background: #FEAC5E;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    }
+
+    .example-item{
+      min-width: calc(100vw - 3em);
+      margin-right: 0.5em;
+      height: 100%;
+
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 1px 1px 2px 2px;
+      color: white;
+    }
+
+    .example-item:nth-of-type(1){
+      background-image: url('http://beaverheadenduranceruns.com/wp/wp-content/themes/beaverhead/_/inc/images/logo.png');
+      background-position: center;
+      background-size: auto;
+    }
+
+    .example-item:nth-of-type(1) .item__text{
+      background: #DE6262;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #FFB88C, #DE6262);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #FFB88C, #DE6262); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    }
+
+    .example-item:nth-of-type(2){
+      background-image: url('http://www.headhuntersflyshop.com/wp-content/uploads/2013/07/DSC_1348-copy.jpg');
+      background-position: center right;
+      background-size: auto;
+    }
+
+    .example-item:nth-of-type(2) .item__text{
+    background: #5f2c82;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #49a09d, #5f2c82);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #49a09d, #5f2c82); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+
+    .example-item:nth-of-type(3){
+      background-image: url('http://zeenatstyle.com/wp-content/uploads/2013/09/How-To-Treat-Acne-By-ZeenatStyle.jpg');
+    }
+
+    .example-item:nth-of-type(3) .item__text{
+     background: #f857a6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #ff5858, #f857a6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #ff5858, #f857a6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+
+    .example-item:nth-of-type(4){
+      background-image: url('http://healthylnb.com/wp-content/uploads/2015/02/beauty-women-skin.jpg');
+      background-position: center center;
+    }
+
+    .example-item:nth-of-type(4) .item__text{
+    background: #7474BF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #348AC7, #7474BF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #348AC7, #7474BF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+
+    .example-item:nth-of-type(5){
+      background-image: url('https://previews.123rf.com/images/subbotina/subbotina1509/subbotina150900103/45198216-Beautiful-woman-portrait-Beauty-spa-woman-with-fresh-skin-and-perfect-makeup-Stock-Photo.jpg');
+    }
+    .example-item:nth-of-type(5) .item__text{
+    background: #EC6F66;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #F3A183, #EC6F66);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #F3A183, #EC6F66); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+
+
+    .example-item:nth-of-type(6){
+      background-image: url('https://s-media-cache-ak0.pinimg.com/originals/e7/eb/f2/e7ebf2c7184d86871b9ca2f62c518fd7.jpg');
+      background-position: center center;
+    }
+    .example-item:nth-of-type(6) .item__text{
+    background: #DAE2F8;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #D6A4A4, #DAE2F8);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #D6A4A4, #DAE2F8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+
+
+    .example-item:nth-of-type(7){
+      background-image: url('https://s-media-cache-ak0.pinimg.com/originals/54/7d/62/547d62778baa261a610ad15d7b4430ec.jpg');
+      background-position: center center;
+    }
+
+    .example-item:nth-of-type(7) .item__text{
+    background: #24C6DC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #514A9D, #24C6DC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #514A9D, #24C6DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+
+
+    .example-item:nth-of-type(8){
+      background-image: url('http://www.cronacanera.org/wp-content/uploads/2016/09/Valentina-Nappi-12.jpg');
+      background-position: center center;
+    }
+
+    .example-item:nth-of-type(8) .item__text{
+      background: #DE6262;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #FFB88C, #DE6262);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #FFB88C, #DE6262); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    }
+    .example-item:nth-of-type(9){
+      background-image: url('https://k61.kn3.net/taringa/6/C/A/7/5/3/n3wt0n_nqn/717.jpg');
+      background-position: top center;
+    }
+
+    .example-item:nth-of-type(9) .item__text{
+    background: #5f2c82;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #49a09d, #5f2c82);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #49a09d, #5f2c82); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+
+
+    .item__text{
+      box-sizing: border-box;
+      opacity: 0;
+      height: 100%;
+      transition: opacity ease-out 0.3s;
+      text-align: center;
+      font-size: .9em;
+      padding: 5em 2em;
+    }
+
+    .item__text > h3 {
+      font-family: 'Lato', sans-serif;
+    }
+
+    .item__text:hover{
+      opacity: 0.8;
+    }
+
+
+    .arrow{
+      min-width: 100px;
+      position: absolute;
+      top: 10em;
+      bottom: 10em;
+      background-color: transparent;
+      opacity: 0.2;
+      border: none;
+      cursor: pointer;
+      color: #ccc;
+      font-size: 1.5em;
+      transition: all 250ms ease-in-out;
+    }
+
+    .arrow:hover{
+      background-color: rgba(255,255,255, 0.6);
+      opacity: 1;
+      color: #2980b9;
+      outline: none;
+    }
+
+    .left{
+      left: 1em;
+    }
+    .right {
+      right: 1em;
+    }
+
+
+    @media only screen and (min-width : 720px){
+      .example-item{
+      min-width: calc(50% - 2em);
+      margin-right: 1em;
+        font-size: 1.5em;
+    }
+    }
+
+
+    @media only screen and (min-width : 1200px){
+      .example-item{
+      min-width: calc(33% - 2em);
+      margin-right: 1em;
+    }
+    }
+
 .list-group {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  width: 75%; }
-  .list-group .title {
+  width: 75%;
+}
+
+.list-group .title {
     color: #008F68;
     font-weight: bold;
     font-size: 22px;
     text-shadow: 2px 2px 2px #222222;
     text-align: center;
     margin-top: 200px;
-    padding: 10px; }
-  .list-group a:visited {
-    color: #008F68; }
-  .list-group a:hover {
-    color: #008F68; }
-  .list-group a:link {
-    color: #008F68; }
+    padding: 10px;
+}
+.list-group a:visited {
+    color: #008F68;
+}
+.list-group a:hover {
+    color: #008F68;
+}
+.list-group a:link {
+    color: #008F68;
+}
+
+.video {
+  background: #000;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -99;
+}
+.video,
+.video-background iframe {
+  position: fixed;
+  top: -15%;
+  left: -15%;
+  width: 140%;
+  height: 140%;
+  pointer-events: none;
+}
+@media (min-aspect-ratio: 16/9) {
+  .video { height: 1000%; top: -100%;
+  }
+  @media (max-aspect-ratio: 16/9) {
+    .video {
+      width: 300%; left: -100%;
+    }
+  }
+}
+@media screen and (max-width: 780px) {
+  .video {
+    display: none;
+  }
+}
 
 .carousel-fade .carousel-inner .item {
   opacity: 0;
@@ -220,8 +457,8 @@ p, h1, h2 {
     opacity: 1;
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0); } }
-.item:nth-child(1) {
-  background: url("./bohemiansky.jpg") no-repeat center center fixed;
+/*.item:nth-child(1) {
+  background: url(https://vimeo.com/267342727) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -239,7 +476,8 @@ p, h1, h2 {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; }
+  background-size: cover; }*/
+
 
 .carousel {
   z-index: -99; }
